@@ -166,17 +166,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "emu_macro"
-version = "0.1.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "6848641fc2fc74ae85123d7aa6eab124cbd7079f49dfd637d443263bc9d74b6d"
-dependencies = [
- "proc-macro2 0.4.30",
- "quote 1.0.7",
- "syn 1.0.48",
-]
-
-[[package]]
 name = "foreign-types"
 version = "0.3.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -737,7 +726,6 @@ name = "ray-march"
 version = "0.1.0"
 dependencies = [
  "emu_core",
- "emu_macro",
 ]
 
 [[package]]
