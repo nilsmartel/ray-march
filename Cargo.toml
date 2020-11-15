@@ -8,4 +8,3 @@ edition = "2018"
 
 [dependencies]
 emu_core = "0.1.1"          # A low-level GPGPU compute library featuring cross-platform support and SPIR-V as input
-emu_macro = "0.1.0"         # A helper for Emu, a procedural macro for GPU acceleration, GPU programming
